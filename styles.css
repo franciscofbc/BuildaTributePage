@@ -1,0 +1,48 @@
+body {
+}
+#body-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ececec;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+    'Helvetica Neue', Arial, sans-serif;
+  border-radius: 4px;
+  margin: 32px 0px;
+}
+header {
+  text-align: center;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main #section1 {
+  background-color: white;
+  padding: 0px 80px;
+}
+main img {
+  display: block;
+  max-width: 100%;
+}
+main figcaption {
+  text-align: center;
+  margin-top: 16px;
+}
+main #tribute-info {
+  width: 50%;
+}
+main #tribute-info h2 {
+  text-align: center;
+}
+main #tribute-info ul li {
+  margin-top: 16px;
+}
+main #tribute-info p {
+  margin-top: 32px;
+}
+main #sec-link {
+  font-size: 24px;
+  text-align: center;
+}
